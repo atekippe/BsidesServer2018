@@ -54,7 +54,7 @@ class CTFServerProtocol(Protocol):
 
         elif "515" in d_data:
             log.msg('FLAG Found!')
-            self.transport.write('FLAG_SDLFasdfjksadh*SL\n'.encode())
+            self.transport.write('FLAG-N3tw0rk_c0ding_!$_Fun\n'.encode())
 
         else:
             greeting = 'Hello {}\nDo I know you?\n'.format(d_data)
